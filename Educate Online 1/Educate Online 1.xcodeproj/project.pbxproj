@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B611C76B289B8D75008A0616 /* student.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C76A289B8D75008A0616 /* student.swift */; };
+		B611C76D289B970C008A0616 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C76C289B970C008A0616 /* user.swift */; };
+		B611C76F289BA2B0008A0616 /* instructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C76E289BA2B0008A0616 /* instructor.swift */; };
+		B611C771289BB4CB008A0616 /* course.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C770289BB4CB008A0616 /* course.swift */; };
+		B611C773289BC49B008A0616 /* review.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C772289BC49B008A0616 /* review.swift */; };
+		B611C776289BCCB1008A0616 /* database.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C775289BCCB1008A0616 /* database.swift */; };
+		B611C778289BD7DD008A0616 /* pushData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C777289BD7DD008A0616 /* pushData.swift */; };
+		B611C77A289BD9C3008A0616 /* register.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C779289BD9C3008A0616 /* register.swift */; };
+		B611C77D289BF785008A0616 /* showFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B611C77C289BF785008A0616 /* showFunctionality.swift */; };
+		B617569728A3C137000330C2 /* courseOutLook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617569628A3C137000330C2 /* courseOutLook.swift */; };
+		B617569A28A3D1F7000330C2 /* viewCourseListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617569928A3D1F7000330C2 /* viewCourseListProtocol.swift */; };
+		B617569C28A3D42C000330C2 /* viewCourseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617569B28A3D42C000330C2 /* viewCourseList.swift */; };
+		B621409B28A0CA0A001A6B94 /* ProfileFunctionalitiesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B621409A28A0CA0A001A6B94 /* ProfileFunctionalitiesProtocol.swift */; };
+		B621409D28A0CBDA001A6B94 /* profileFunctionalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B621409C28A0CBDA001A6B94 /* profileFunctionalities.swift */; };
+		B621409F28A0D537001A6B94 /* editProfileProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B621409E28A0D537001A6B94 /* editProfileProtocol.swift */; };
+		B62140A128A0D641001A6B94 /* instructorEditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62140A028A0D641001A6B94 /* instructorEditProfile.swift */; };
+		B62140A328A0EDC8001A6B94 /* updateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62140A228A0EDC8001A6B94 /* updateData.swift */; };
+		B62140A528A102AF001A6B94 /* courseOfferedProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62140A428A102AF001A6B94 /* courseOfferedProtocol.swift */; };
+		B62140A728A10493001A6B94 /* coursesOffered.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62140A628A10493001A6B94 /* coursesOffered.swift */; };
+		B62140A928A111B7001A6B94 /* updateDatabaseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62140A828A111B7001A6B94 /* updateDatabaseProtocol.swift */; };
+		B6252D3028A22E69007CC213 /* studentViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D2F28A22E69007CC213 /* studentViewProfile.swift */; };
+		B6252D3828A25B39007CC213 /* modifyOfferedCourseFunctionalitiesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D3728A25B39007CC213 /* modifyOfferedCourseFunctionalitiesProtocol.swift */; };
+		B6252D3A28A25C47007CC213 /* modifyOfferedCourseFunctionalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D3928A25C47007CC213 /* modifyOfferedCourseFunctionalities.swift */; };
+		B6252D3C28A25F7A007CC213 /* updateCourseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D3B28A25F7A007CC213 /* updateCourseProtocol.swift */; };
+		B6252D3E28A26059007CC213 /* updateCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D3D28A26059007CC213 /* updateCourse.swift */; };
+		B6252D4028A281FB007CC213 /* removeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D3F28A281FB007CC213 /* removeData.swift */; };
+		B6252D4228A28296007CC213 /* removeDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6252D4128A28296007CC213 /* removeDataProtocol.swift */; };
+		B63E0D73289A811D000F0733 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E0D72289A811D000F0733 /* main.swift */; };
+		B63E0D7A289A81F4000F0733 /* validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63E0D79289A81F4000F0733 /* validation.swift */; };
+		B640B6C028A11598000DAE43 /* displayCourses.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640B6BF28A11598000DAE43 /* displayCourses.swift */; };
+		B640B6C228A1161B000DAE43 /* displayCoursesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640B6C128A1161B000DAE43 /* displayCoursesProtocol.swift */; };
+		B640B6C428A11F80000DAE43 /* offeredCourseFunctionalitiesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640B6C328A11F80000DAE43 /* offeredCourseFunctionalitiesProtocol.swift */; };
+		B640B6C628A1210E000DAE43 /* offeredCoursesFunctionalities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640B6C528A1210E000DAE43 /* offeredCoursesFunctionalities.swift */; };
+		B640B6C828A12D88000DAE43 /* searchCourseIdProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640B6C728A12D88000DAE43 /* searchCourseIdProtocol.swift */; };
+		B640B6CA28A12E7B000DAE43 /* searchCourseId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B640B6C928A12E7B000DAE43 /* searchCourseId.swift */; };
+		B651D18A28A4CC11003CAF2B /* CourseFiltersProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D18928A4CC11003CAF2B /* CourseFiltersProtocol.swift */; };
+		B651D18C28A4D132003CAF2B /* courseFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D18B28A4D132003CAF2B /* courseFilters.swift */; };
+		B651D19128A4FB17003CAF2B /* purchaseCourseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19028A4FB17003CAF2B /* purchaseCourseProtocol.swift */; };
+		B651D19328A4FD2C003CAF2B /* purchaseCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19228A4FD2C003CAF2B /* purchaseCourse.swift */; };
+		B651D19528A5133C003CAF2B /* purchaseFunctionalityProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19428A5133C003CAF2B /* purchaseFunctionalityProtocol.swift */; };
+		B651D19728A513CC003CAF2B /* purchaseCourseFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19628A513CC003CAF2B /* purchaseCourseFunctionality.swift */; };
+		B651D19928A52830003CAF2B /* selectedCourseFunctionalitiesProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19828A52830003CAF2B /* selectedCourseFunctionalitiesProtocol.swift */; };
+		B651D19B28A529A5003CAF2B /* selectedCourseFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19A28A529A5003CAF2B /* selectedCourseFunctionality.swift */; };
+		B651D19D28A535D2003CAF2B /* viewFullCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19C28A535D2003CAF2B /* viewFullCourse.swift */; };
+		B651D19F28A53C0E003CAF2B /* viewFullCourseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B651D19E28A53C0E003CAF2B /* viewFullCourseProtocol.swift */; };
+		B6631EDA28A61FBF008C06BF /* instructorRelatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6631ED928A61FBF008C06BF /* instructorRelatedObjects.swift */; };
+		B6631EDC28A624A2008C06BF /* databaseRelatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6631EDB28A624A2008C06BF /* databaseRelatedObjects.swift */; };
+		B6631EDE28A6261B008C06BF /* commonObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6631EDD28A6261B008C06BF /* commonObjects.swift */; };
+		B6631EE028A63EFB008C06BF /* studentRelatedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6631EDF28A63EFB008C06BF /* studentRelatedObjects.swift */; };
+		B6631EE328A65B5E008C06BF /* enumOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6631EE228A65B5E008C06BF /* enumOptions.swift */; };
+		B6C63E3728A02E0300D3300F /* pushDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C63E3628A02E0300D3300F /* pushDataProtocol.swift */; };
+		B6C63E3928A02F5800D3300F /* fetchDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C63E3828A02F5800D3300F /* fetchDataProtocol.swift */; };
+		B6CA438928A299FF0053A13B /* studentProfileDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CA438828A299FF0053A13B /* studentProfileDisplayer.swift */; };
+		B6CA438B28A2A0550053A13B /* studentEditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6CA438A28A2A0540053A13B /* studentEditProfile.swift */; };
+		B6EF5AB2289CD88A00591C61 /* instructorFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AB1289CD88A00591C61 /* instructorFunctionality.swift */; };
+		B6EF5AB4289CDBB400591C61 /* createCourseProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AB3289CDBB400591C61 /* createCourseProtocol.swift */; };
+		B6EF5AB6289CE1B900591C61 /* createCourse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AB5289CE1B900591C61 /* createCourse.swift */; };
+		B6EF5ABB289CEB6A00591C61 /* customError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5ABA289CEB6A00591C61 /* customError.swift */; };
+		B6EF5ABD289CF51600591C61 /* setCategoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5ABC289CF51600591C61 /* setCategoryProtocol.swift */; };
+		B6EF5ABF289CF58700591C61 /* setCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5ABE289CF58700591C61 /* setCategory.swift */; };
+		B6EF5AC1289CFE3F00591C61 /* fetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AC0289CFE3F00591C61 /* fetchData.swift */; };
+		B6EF5AC3289D13FC00591C61 /* verifyProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AC2289D13FC00591C61 /* verifyProtocol.swift */; };
+		B6EF5AC5289D14D800591C61 /* verifyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AC4289D14D800591C61 /* verifyData.swift */; };
+		B6EF5AC7289D182F00591C61 /* studentFunctionality.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AC6289D182F00591C61 /* studentFunctionality.swift */; };
+		B6EF5ACA289D25AA00591C61 /* userRegistrationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AC9289D25AA00591C61 /* userRegistrationProtocol.swift */; };
+		B6EF5ACC289D297900591C61 /* viewProfileProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5ACB289D297900591C61 /* viewProfileProtocol.swift */; };
+		B6EF5ACE289D2A0200591C61 /* instructorViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5ACD289D2A0200591C61 /* instructorViewProfile.swift */; };
+		B6EF5AD0289D33B500591C61 /* profileDisplayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5ACF289D33B500591C61 /* profileDisplayerProtocol.swift */; };
+		B6EF5AD2289D345600591C61 /* instructorProfileDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AD1289D345600591C61 /* instructorProfileDisplayer.swift */; };
+		B6EF5AD4289D4FDF00591C61 /* readValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF5AD3289D4FDF00591C61 /* readValue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B63E0D6D289A811D000F0733 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B611C76A289B8D75008A0616 /* student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = student.swift; sourceTree = "<group>"; };
+		B611C76C289B970C008A0616 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		B611C76E289BA2B0008A0616 /* instructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructor.swift; sourceTree = "<group>"; };
+		B611C770289BB4CB008A0616 /* course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = course.swift; sourceTree = "<group>"; };
+		B611C772289BC49B008A0616 /* review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = review.swift; sourceTree = "<group>"; };
+		B611C775289BCCB1008A0616 /* database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = database.swift; sourceTree = "<group>"; };
+		B611C777289BD7DD008A0616 /* pushData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushData.swift; sourceTree = "<group>"; };
+		B611C779289BD9C3008A0616 /* register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = register.swift; sourceTree = "<group>"; };
+		B611C77C289BF785008A0616 /* showFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showFunctionality.swift; sourceTree = "<group>"; };
+		B617569628A3C137000330C2 /* courseOutLook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseOutLook.swift; sourceTree = "<group>"; };
+		B617569928A3D1F7000330C2 /* viewCourseListProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCourseListProtocol.swift; sourceTree = "<group>"; };
+		B617569B28A3D42C000330C2 /* viewCourseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewCourseList.swift; sourceTree = "<group>"; };
+		B621409A28A0CA0A001A6B94 /* ProfileFunctionalitiesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFunctionalitiesProtocol.swift; sourceTree = "<group>"; };
+		B621409C28A0CBDA001A6B94 /* profileFunctionalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileFunctionalities.swift; sourceTree = "<group>"; };
+		B621409E28A0D537001A6B94 /* editProfileProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileProtocol.swift; sourceTree = "<group>"; };
+		B62140A028A0D641001A6B94 /* instructorEditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorEditProfile.swift; sourceTree = "<group>"; };
+		B62140A228A0EDC8001A6B94 /* updateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateData.swift; sourceTree = "<group>"; };
+		B62140A428A102AF001A6B94 /* courseOfferedProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseOfferedProtocol.swift; sourceTree = "<group>"; };
+		B62140A628A10493001A6B94 /* coursesOffered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesOffered.swift; sourceTree = "<group>"; };
+		B62140A828A111B7001A6B94 /* updateDatabaseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateDatabaseProtocol.swift; sourceTree = "<group>"; };
+		B6252D2F28A22E69007CC213 /* studentViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentViewProfile.swift; sourceTree = "<group>"; };
+		B6252D3728A25B39007CC213 /* modifyOfferedCourseFunctionalitiesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modifyOfferedCourseFunctionalitiesProtocol.swift; sourceTree = "<group>"; };
+		B6252D3928A25C47007CC213 /* modifyOfferedCourseFunctionalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modifyOfferedCourseFunctionalities.swift; sourceTree = "<group>"; };
+		B6252D3B28A25F7A007CC213 /* updateCourseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateCourseProtocol.swift; sourceTree = "<group>"; };
+		B6252D3D28A26059007CC213 /* updateCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = updateCourse.swift; sourceTree = "<group>"; };
+		B6252D3F28A281FB007CC213 /* removeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeData.swift; sourceTree = "<group>"; };
+		B6252D4128A28296007CC213 /* removeDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = removeDataProtocol.swift; sourceTree = "<group>"; };
+		B63E0D6F289A811D000F0733 /* Educate Online 1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Educate Online 1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B63E0D72289A811D000F0733 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B63E0D79289A81F4000F0733 /* validation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = validation.swift; sourceTree = "<group>"; };
+		B640B6BF28A11598000DAE43 /* displayCourses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayCourses.swift; sourceTree = "<group>"; };
+		B640B6C128A1161B000DAE43 /* displayCoursesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = displayCoursesProtocol.swift; sourceTree = "<group>"; };
+		B640B6C328A11F80000DAE43 /* offeredCourseFunctionalitiesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offeredCourseFunctionalitiesProtocol.swift; sourceTree = "<group>"; };
+		B640B6C528A1210E000DAE43 /* offeredCoursesFunctionalities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offeredCoursesFunctionalities.swift; sourceTree = "<group>"; };
+		B640B6C728A12D88000DAE43 /* searchCourseIdProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCourseIdProtocol.swift; sourceTree = "<group>"; };
+		B640B6C928A12E7B000DAE43 /* searchCourseId.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCourseId.swift; sourceTree = "<group>"; };
+		B651D18928A4CC11003CAF2B /* CourseFiltersProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseFiltersProtocol.swift; sourceTree = "<group>"; };
+		B651D18B28A4D132003CAF2B /* courseFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courseFilters.swift; sourceTree = "<group>"; };
+		B651D19028A4FB17003CAF2B /* purchaseCourseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseCourseProtocol.swift; sourceTree = "<group>"; };
+		B651D19228A4FD2C003CAF2B /* purchaseCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseCourse.swift; sourceTree = "<group>"; };
+		B651D19428A5133C003CAF2B /* purchaseFunctionalityProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseFunctionalityProtocol.swift; sourceTree = "<group>"; };
+		B651D19628A513CC003CAF2B /* purchaseCourseFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = purchaseCourseFunctionality.swift; sourceTree = "<group>"; };
+		B651D19828A52830003CAF2B /* selectedCourseFunctionalitiesProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedCourseFunctionalitiesProtocol.swift; sourceTree = "<group>"; };
+		B651D19A28A529A5003CAF2B /* selectedCourseFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectedCourseFunctionality.swift; sourceTree = "<group>"; };
+		B651D19C28A535D2003CAF2B /* viewFullCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewFullCourse.swift; sourceTree = "<group>"; };
+		B651D19E28A53C0E003CAF2B /* viewFullCourseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewFullCourseProtocol.swift; sourceTree = "<group>"; };
+		B6631ED928A61FBF008C06BF /* instructorRelatedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorRelatedObjects.swift; sourceTree = "<group>"; };
+		B6631EDB28A624A2008C06BF /* databaseRelatedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = databaseRelatedObjects.swift; sourceTree = "<group>"; };
+		B6631EDD28A6261B008C06BF /* commonObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commonObjects.swift; sourceTree = "<group>"; };
+		B6631EDF28A63EFB008C06BF /* studentRelatedObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentRelatedObjects.swift; sourceTree = "<group>"; };
+		B6631EE228A65B5E008C06BF /* enumOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enumOptions.swift; sourceTree = "<group>"; };
+		B6C63E3628A02E0300D3300F /* pushDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pushDataProtocol.swift; sourceTree = "<group>"; };
+		B6C63E3828A02F5800D3300F /* fetchDataProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchDataProtocol.swift; sourceTree = "<group>"; };
+		B6CA438828A299FF0053A13B /* studentProfileDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentProfileDisplayer.swift; sourceTree = "<group>"; };
+		B6CA438A28A2A0540053A13B /* studentEditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentEditProfile.swift; sourceTree = "<group>"; };
+		B6EF5AB1289CD88A00591C61 /* instructorFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorFunctionality.swift; sourceTree = "<group>"; };
+		B6EF5AB3289CDBB400591C61 /* createCourseProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createCourseProtocol.swift; sourceTree = "<group>"; };
+		B6EF5AB5289CE1B900591C61 /* createCourse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createCourse.swift; sourceTree = "<group>"; };
+		B6EF5ABA289CEB6A00591C61 /* customError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customError.swift; sourceTree = "<group>"; };
+		B6EF5ABC289CF51600591C61 /* setCategoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setCategoryProtocol.swift; sourceTree = "<group>"; };
+		B6EF5ABE289CF58700591C61 /* setCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setCategory.swift; sourceTree = "<group>"; };
+		B6EF5AC0289CFE3F00591C61 /* fetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fetchData.swift; sourceTree = "<group>"; };
+		B6EF5AC2289D13FC00591C61 /* verifyProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyProtocol.swift; sourceTree = "<group>"; };
+		B6EF5AC4289D14D800591C61 /* verifyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verifyData.swift; sourceTree = "<group>"; };
+		B6EF5AC6289D182F00591C61 /* studentFunctionality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studentFunctionality.swift; sourceTree = "<group>"; };
+		B6EF5AC9289D25AA00591C61 /* userRegistrationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userRegistrationProtocol.swift; sourceTree = "<group>"; };
+		B6EF5ACB289D297900591C61 /* viewProfileProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewProfileProtocol.swift; sourceTree = "<group>"; };
+		B6EF5ACD289D2A0200591C61 /* instructorViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorViewProfile.swift; sourceTree = "<group>"; };
+		B6EF5ACF289D33B500591C61 /* profileDisplayerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileDisplayerProtocol.swift; sourceTree = "<group>"; };
+		B6EF5AD1289D345600591C61 /* instructorProfileDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instructorProfileDisplayer.swift; sourceTree = "<group>"; };
+		B6EF5AD3289D4FDF00591C61 /* readValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = readValue.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B63E0D6C289A811D000F0733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B611C769289B8D2F008A0616 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				B611C76A289B8D75008A0616 /* student.swift */,
+				B611C76E289BA2B0008A0616 /* instructor.swift */,
+				B617569628A3C137000330C2 /* courseOutLook.swift */,
+				B611C770289BB4CB008A0616 /* course.swift */,
+				B611C772289BC49B008A0616 /* review.swift */,
+				B611C76C289B970C008A0616 /* user.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		B611C774289BCC17008A0616 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				B611C775289BCCB1008A0616 /* database.swift */,
+				B611C777289BD7DD008A0616 /* pushData.swift */,
+				B6252D3F28A281FB007CC213 /* removeData.swift */,
+				B62140A228A0EDC8001A6B94 /* updateData.swift */,
+				B6EF5AC0289CFE3F00591C61 /* fetchData.swift */,
+				B6EF5AC4289D14D800591C61 /* verifyData.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		B611C77B289BF717008A0616 /* InstructorProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B62140A428A102AF001A6B94 /* courseOfferedProtocol.swift */,
+				B640B6C328A11F80000DAE43 /* offeredCourseFunctionalitiesProtocol.swift */,
+				B6252D3B28A25F7A007CC213 /* updateCourseProtocol.swift */,
+				B6252D3728A25B39007CC213 /* modifyOfferedCourseFunctionalitiesProtocol.swift */,
+				B6C63E3628A02E0300D3300F /* pushDataProtocol.swift */,
+				B6EF5ABC289CF51600591C61 /* setCategoryProtocol.swift */,
+				B6EF5AB3289CDBB400591C61 /* createCourseProtocol.swift */,
+			);
+			path = InstructorProtocol;
+			sourceTree = "<group>";
+		};
+		B617569828A3D057000330C2 /* StudentsProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B617569928A3D1F7000330C2 /* viewCourseListProtocol.swift */,
+				B651D19428A5133C003CAF2B /* purchaseFunctionalityProtocol.swift */,
+				B651D19E28A53C0E003CAF2B /* viewFullCourseProtocol.swift */,
+				B651D19028A4FB17003CAF2B /* purchaseCourseProtocol.swift */,
+				B651D19828A52830003CAF2B /* selectedCourseFunctionalitiesProtocol.swift */,
+				B651D18928A4CC11003CAF2B /* CourseFiltersProtocol.swift */,
+			);
+			path = StudentsProtocol;
+			sourceTree = "<group>";
+		};
+		B63E0D66289A811D000F0733 = {
+			isa = PBXGroup;
+			children = (
+				B63E0D71289A811D000F0733 /* Educate Online 1 */,
+				B63E0D70289A811D000F0733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B63E0D70289A811D000F0733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B63E0D6F289A811D000F0733 /* Educate Online 1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B63E0D71289A811D000F0733 /* Educate Online 1 */ = {
+			isa = PBXGroup;
+			children = (
+				B63E0D72289A811D000F0733 /* main.swift */,
+				B611C779289BD9C3008A0616 /* register.swift */,
+				B63E0D79289A81F4000F0733 /* validation.swift */,
+				B6EF5AD3289D4FDF00591C61 /* readValue.swift */,
+				B6EF5ABA289CEB6A00591C61 /* customError.swift */,
+				B6631EE128A65B31008C06BF /* Enum */,
+				B6631ED828A61F4B008C06BF /* ObjectProvider */,
+				B617569828A3D057000330C2 /* StudentsProtocol */,
+				B611C77B289BF717008A0616 /* InstructorProtocol */,
+				B6893BA828A227BC0045C4B2 /* CommonProtocol */,
+				B641C7FB28A391CC00858537 /* CommonFunctionality */,
+				B6EF5AC8289D194800591C61 /* StudentFunctionality */,
+				B6EF5AB7289CE3BC00591C61 /* InstructorFunctionality */,
+				B611C769289B8D2F008A0616 /* Entity */,
+				B611C774289BCC17008A0616 /* Repository */,
+			);
+			path = "Educate Online 1";
+			sourceTree = "<group>";
+		};
+		B641C7FB28A391CC00858537 /* CommonFunctionality */ = {
+			isa = PBXGroup;
+			children = (
+				B621409C28A0CBDA001A6B94 /* profileFunctionalities.swift */,
+				B640B6BF28A11598000DAE43 /* displayCourses.swift */,
+				B640B6C928A12E7B000DAE43 /* searchCourseId.swift */,
+			);
+			path = CommonFunctionality;
+			sourceTree = "<group>";
+		};
+		B6631ED828A61F4B008C06BF /* ObjectProvider */ = {
+			isa = PBXGroup;
+			children = (
+				B6631ED928A61FBF008C06BF /* instructorRelatedObjects.swift */,
+				B6631EDB28A624A2008C06BF /* databaseRelatedObjects.swift */,
+				B6631EDF28A63EFB008C06BF /* studentRelatedObjects.swift */,
+				B6631EDD28A6261B008C06BF /* commonObjects.swift */,
+			);
+			path = ObjectProvider;
+			sourceTree = "<group>";
+		};
+		B6631EE128A65B31008C06BF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				B6631EE228A65B5E008C06BF /* enumOptions.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		B6893BA828A227BC0045C4B2 /* CommonProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF5AC9289D25AA00591C61 /* userRegistrationProtocol.swift */,
+				B611C77C289BF785008A0616 /* showFunctionality.swift */,
+				B640B6C128A1161B000DAE43 /* displayCoursesProtocol.swift */,
+				B6EF5ACF289D33B500591C61 /* profileDisplayerProtocol.swift */,
+				B621409E28A0D537001A6B94 /* editProfileProtocol.swift */,
+				B6C63E3828A02F5800D3300F /* fetchDataProtocol.swift */,
+				B62140A828A111B7001A6B94 /* updateDatabaseProtocol.swift */,
+				B6252D4128A28296007CC213 /* removeDataProtocol.swift */,
+				B640B6C728A12D88000DAE43 /* searchCourseIdProtocol.swift */,
+				B621409A28A0CA0A001A6B94 /* ProfileFunctionalitiesProtocol.swift */,
+				B6EF5ACB289D297900591C61 /* viewProfileProtocol.swift */,
+				B6EF5AC2289D13FC00591C61 /* verifyProtocol.swift */,
+			);
+			path = CommonProtocol;
+			sourceTree = "<group>";
+		};
+		B6EF5AB7289CE3BC00591C61 /* InstructorFunctionality */ = {
+			isa = PBXGroup;
+			children = (
+				B62140A028A0D641001A6B94 /* instructorEditProfile.swift */,
+				B6EF5AB5289CE1B900591C61 /* createCourse.swift */,
+				B6EF5AD1289D345600591C61 /* instructorProfileDisplayer.swift */,
+				B62140A628A10493001A6B94 /* coursesOffered.swift */,
+				B6EF5ACD289D2A0200591C61 /* instructorViewProfile.swift */,
+				B6252D3D28A26059007CC213 /* updateCourse.swift */,
+				B6EF5ABE289CF58700591C61 /* setCategory.swift */,
+				B6252D3928A25C47007CC213 /* modifyOfferedCourseFunctionalities.swift */,
+				B6EF5AB1289CD88A00591C61 /* instructorFunctionality.swift */,
+				B640B6C528A1210E000DAE43 /* offeredCoursesFunctionalities.swift */,
+			);
+			path = InstructorFunctionality;
+			sourceTree = "<group>";
+		};
+		B6EF5AC8289D194800591C61 /* StudentFunctionality */ = {
+			isa = PBXGroup;
+			children = (
+				B6EF5AC6289D182F00591C61 /* studentFunctionality.swift */,
+				B6CA438828A299FF0053A13B /* studentProfileDisplayer.swift */,
+				B651D19A28A529A5003CAF2B /* selectedCourseFunctionality.swift */,
+				B651D19628A513CC003CAF2B /* purchaseCourseFunctionality.swift */,
+				B651D19C28A535D2003CAF2B /* viewFullCourse.swift */,
+				B651D19228A4FD2C003CAF2B /* purchaseCourse.swift */,
+				B651D18B28A4D132003CAF2B /* courseFilters.swift */,
+				B6CA438A28A2A0540053A13B /* studentEditProfile.swift */,
+				B617569B28A3D42C000330C2 /* viewCourseList.swift */,
+				B6252D2F28A22E69007CC213 /* studentViewProfile.swift */,
+			);
+			path = StudentFunctionality;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B63E0D6E289A811D000F0733 /* Educate Online 1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B63E0D76289A811D000F0733 /* Build configuration list for PBXNativeTarget "Educate Online 1" */;
+			buildPhases = (
+				B63E0D6B289A811D000F0733 /* Sources */,
+				B63E0D6C289A811D000F0733 /* Frameworks */,
+				B63E0D6D289A811D000F0733 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Educate Online 1";
+			productName = "Educate Online 1";
+			productReference = B63E0D6F289A811D000F0733 /* Educate Online 1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B63E0D67289A811D000F0733 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B63E0D6E289A811D000F0733 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = B63E0D6A289A811D000F0733 /* Build configuration list for PBXProject "Educate Online 1" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B63E0D66289A811D000F0733;
+			productRefGroup = B63E0D70289A811D000F0733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B63E0D6E289A811D000F0733 /* Educate Online 1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B63E0D6B289A811D000F0733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6631EDC28A624A2008C06BF /* databaseRelatedObjects.swift in Sources */,
+				B640B6C228A1161B000DAE43 /* displayCoursesProtocol.swift in Sources */,
+				B6EF5AD0289D33B500591C61 /* profileDisplayerProtocol.swift in Sources */,
+				B640B6C428A11F80000DAE43 /* offeredCourseFunctionalitiesProtocol.swift in Sources */,
+				B611C771289BB4CB008A0616 /* course.swift in Sources */,
+				B640B6C628A1210E000DAE43 /* offeredCoursesFunctionalities.swift in Sources */,
+				B6EF5ACE289D2A0200591C61 /* instructorViewProfile.swift in Sources */,
+				B6EF5ACC289D297900591C61 /* viewProfileProtocol.swift in Sources */,
+				B6CA438928A299FF0053A13B /* studentProfileDisplayer.swift in Sources */,
+				B651D18C28A4D132003CAF2B /* courseFilters.swift in Sources */,
+				B6EF5ABB289CEB6A00591C61 /* customError.swift in Sources */,
+				B6252D3E28A26059007CC213 /* updateCourse.swift in Sources */,
+				B6EF5AC1289CFE3F00591C61 /* fetchData.swift in Sources */,
+				B651D18A28A4CC11003CAF2B /* CourseFiltersProtocol.swift in Sources */,
+				B611C778289BD7DD008A0616 /* pushData.swift in Sources */,
+				B62140A328A0EDC8001A6B94 /* updateData.swift in Sources */,
+				B6252D3028A22E69007CC213 /* studentViewProfile.swift in Sources */,
+				B651D19928A52830003CAF2B /* selectedCourseFunctionalitiesProtocol.swift in Sources */,
+				B651D19728A513CC003CAF2B /* purchaseCourseFunctionality.swift in Sources */,
+				B621409D28A0CBDA001A6B94 /* profileFunctionalities.swift in Sources */,
+				B617569728A3C137000330C2 /* courseOutLook.swift in Sources */,
+				B611C773289BC49B008A0616 /* review.swift in Sources */,
+				B611C76D289B970C008A0616 /* user.swift in Sources */,
+				B6631EDA28A61FBF008C06BF /* instructorRelatedObjects.swift in Sources */,
+				B611C77A289BD9C3008A0616 /* register.swift in Sources */,
+				B640B6C028A11598000DAE43 /* displayCourses.swift in Sources */,
+				B651D19F28A53C0E003CAF2B /* viewFullCourseProtocol.swift in Sources */,
+				B6252D3828A25B39007CC213 /* modifyOfferedCourseFunctionalitiesProtocol.swift in Sources */,
+				B63E0D73289A811D000F0733 /* main.swift in Sources */,
+				B6EF5AC7289D182F00591C61 /* studentFunctionality.swift in Sources */,
+				B6EF5AD2289D345600591C61 /* instructorProfileDisplayer.swift in Sources */,
+				B6C63E3928A02F5800D3300F /* fetchDataProtocol.swift in Sources */,
+				B6EF5ABF289CF58700591C61 /* setCategory.swift in Sources */,
+				B6EF5AD4289D4FDF00591C61 /* readValue.swift in Sources */,
+				B617569C28A3D42C000330C2 /* viewCourseList.swift in Sources */,
+				B6252D3C28A25F7A007CC213 /* updateCourseProtocol.swift in Sources */,
+				B6EF5AB2289CD88A00591C61 /* instructorFunctionality.swift in Sources */,
+				B651D19B28A529A5003CAF2B /* selectedCourseFunctionality.swift in Sources */,
+				B6631EE028A63EFB008C06BF /* studentRelatedObjects.swift in Sources */,
+				B651D19128A4FB17003CAF2B /* purchaseCourseProtocol.swift in Sources */,
+				B62140A928A111B7001A6B94 /* updateDatabaseProtocol.swift in Sources */,
+				B640B6CA28A12E7B000DAE43 /* searchCourseId.swift in Sources */,
+				B6CA438B28A2A0550053A13B /* studentEditProfile.swift in Sources */,
+				B6EF5AB4289CDBB400591C61 /* createCourseProtocol.swift in Sources */,
+				B62140A528A102AF001A6B94 /* courseOfferedProtocol.swift in Sources */,
+				B6EF5AB6289CE1B900591C61 /* createCourse.swift in Sources */,
+				B651D19D28A535D2003CAF2B /* viewFullCourse.swift in Sources */,
+				B611C77D289BF785008A0616 /* showFunctionality.swift in Sources */,
+				B6EF5ACA289D25AA00591C61 /* userRegistrationProtocol.swift in Sources */,
+				B640B6C828A12D88000DAE43 /* searchCourseIdProtocol.swift in Sources */,
+				B6EF5AC3289D13FC00591C61 /* verifyProtocol.swift in Sources */,
+				B611C776289BCCB1008A0616 /* database.swift in Sources */,
+				B621409F28A0D537001A6B94 /* editProfileProtocol.swift in Sources */,
+				B6252D4028A281FB007CC213 /* removeData.swift in Sources */,
+				B651D19528A5133C003CAF2B /* purchaseFunctionalityProtocol.swift in Sources */,
+				B6631EDE28A6261B008C06BF /* commonObjects.swift in Sources */,
+				B617569A28A3D1F7000330C2 /* viewCourseListProtocol.swift in Sources */,
+				B6EF5AC5289D14D800591C61 /* verifyData.swift in Sources */,
+				B6C63E3728A02E0300D3300F /* pushDataProtocol.swift in Sources */,
+				B62140A128A0D641001A6B94 /* instructorEditProfile.swift in Sources */,
+				B6252D3A28A25C47007CC213 /* modifyOfferedCourseFunctionalities.swift in Sources */,
+				B6252D4228A28296007CC213 /* removeDataProtocol.swift in Sources */,
+				B621409B28A0CA0A001A6B94 /* ProfileFunctionalitiesProtocol.swift in Sources */,
+				B6EF5ABD289CF51600591C61 /* setCategoryProtocol.swift in Sources */,
+				B651D19328A4FD2C003CAF2B /* purchaseCourse.swift in Sources */,
+				B62140A728A10493001A6B94 /* coursesOffered.swift in Sources */,
+				B63E0D7A289A81F4000F0733 /* validation.swift in Sources */,
+				B6631EE328A65B5E008C06BF /* enumOptions.swift in Sources */,
+				B611C76B289B8D75008A0616 /* student.swift in Sources */,
+				B611C76F289BA2B0008A0616 /* instructor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B63E0D74289A811D000F0733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B63E0D75289A811D000F0733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		B63E0D77289A811D000F0733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4P8635MT9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B63E0D78289A811D000F0733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D4P8635MT9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B63E0D6A289A811D000F0733 /* Build configuration list for PBXProject "Educate Online 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63E0D74289A811D000F0733 /* Debug */,
+				B63E0D75289A811D000F0733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B63E0D76289A811D000F0733 /* Build configuration list for PBXNativeTarget "Educate Online 1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B63E0D77289A811D000F0733 /* Debug */,
+				B63E0D78289A811D000F0733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B63E0D67289A811D000F0733 /* Project object */;
+}
